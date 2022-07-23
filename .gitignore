@@ -41,5 +41,5 @@ target/
 /gradlew
 /gradlew.bat
 settings.gradle
-resources/config/local.properties
-resources/config/credentials.properties
+/src/test/resources/config/local.properties
+/src/test/resources/config/credentials.properties
