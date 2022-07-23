@@ -1,8 +1,8 @@
-# Проект автоматизации тестирования для "Спортмастера"
+# Проект автоматизации мобильного приложения Wikipedia
 
 Проект выполнен в рамках курса по автоматизации школы <a href="https://qa.guru">QA.Guru</a>.
 
-<img src="/images/sportmaster.png">
+<img src="/images/Wikipedia.jpg">
 
 ## Содержание:
 
@@ -11,6 +11,7 @@
 * <a href="#link-сборка-в-jenkins">Сборка в Jenkins</a>
 * <a href="#link-запуск-из-инструменты-командной-строки">Запуск из командной строки</a>
 * <a href="#link-allure-отчет">Allure отчет</a>
+* * <a href="#link-отчет-browserstack">Отчет Browserstack</a>
 * <a href="#link-отчет-в-telegram">Отчет в Telegram</a>
 * <a href="#link-видео-прохождения-тестов">Видео прохождения тестов</a>
 
