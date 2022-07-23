@@ -11,7 +11,7 @@
 * <a href="#link-сборка-в-jenkins">Сборка в Jenkins</a>
 * <a href="#link-запуск-из-инструменты-командной-строки">Запуск из командной строки</a>
 * <a href="#link-allure-отчет">Allure отчет</a>
-* * <a href="#link-отчет-browserstack">Отчет Browserstack</a>
+* <a href="#link-отчет-browserstack">Отчет Browserstack</a>
 * <a href="#link-отчет-в-telegram">Отчет в Telegram</a>
 * <a href="#link-видео-прохождения-тестов">Видео прохождения тестов</a>
 
