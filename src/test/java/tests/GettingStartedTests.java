@@ -1,6 +1,8 @@
 package tests;
 
 import io.appium.java_client.AppiumBy;
+import io.qameta.allure.AllureId;
+import io.qameta.allure.Owner;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -11,7 +13,9 @@ import static io.qameta.allure.Allure.step;
 public class GettingStartedTests extends TestBase {
 
     @Test
-    @DisplayName("Getting Started and Check Onboarding Screen")
+    @AllureId("11683")
+    @DisplayName("Проверка стартового экрана")
+    @Owner("allure8")
     void checkOnboardingScreen() {
         step("Check first screen", () -> {
             $(AppiumBy.id("org.wikipedia.alpha:id/primaryTextView")).shouldHave(text("The Free Encyclopedia …in over 300 languages"));

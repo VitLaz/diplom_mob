@@ -2,6 +2,8 @@ package tests;
 
 import com.codeborne.selenide.Condition;
 import io.appium.java_client.AppiumBy;
+import io.qameta.allure.AllureId;
+import io.qameta.allure.Owner;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -11,7 +13,9 @@ import static io.qameta.allure.Allure.step;
 public class OpenArticleTest extends TestBase {
 
     @Test
-    @DisplayName("Open Article")
+    @AllureId("11684")
+    @DisplayName("Открытие статьи")
+    @Owner("allure8")
     public void searchArticle() {
         back();
         step("Type search", () -> {

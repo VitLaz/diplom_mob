@@ -2,6 +2,8 @@ package tests;
 
 import com.codeborne.selenide.CollectionCondition;
 import io.appium.java_client.AppiumBy;
+import io.qameta.allure.AllureId;
+import io.qameta.allure.Owner;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -11,7 +13,9 @@ import static io.qameta.allure.Allure.step;
 public class SearchTests extends TestBase {
 
     @Test
-    @DisplayName("Search in Wiki")
+    @AllureId("11685")
+    @DisplayName("Поиск в Википедии")
+    @Owner("allure8")
     void searchWithByTextLocatorTest() {
         back();
         step("Type search", () -> {
